@@ -14,12 +14,14 @@ This project focuses on sentiment analysis of Bangla text data. The goal is to c
 ## 📊 Results
 
 ### Training and Validation Loss
-![Training and Validation Loss](path_to_training_validation_loss_image)
+![image](https://github.com/user-attachments/assets/aa2fc9a5-45c6-47f1-ae3f-c44e120679d2)
+
+
 
 The training loss decreases significantly while the validation loss remains relatively stable, indicating a good learning process but potential overfitting in later epochs.
 
 ### ROC Curve
-![ROC Curve](path_to_roc_curve_image)
+![image](https://github.com/user-attachments/assets/1f07807d-9d1a-4678-aa55-86c60a11c90d)
 
 The ROC curve shows an AUC of 1.00, indicating near-perfect classification, though this should be interpreted cautiously given the class imbalance.
 
