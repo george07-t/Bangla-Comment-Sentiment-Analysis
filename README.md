@@ -47,6 +47,35 @@ The ROC curve shows an AUC of 1.00, indicating near-perfect classification, thou
 - `src/`: Source code for data preprocessing, model building, and evaluation.
 - `results/`: Evaluation metrics, plots, and logs.
 
+## 📚 Dataset Description
+
+The dataset used in this project consists of Bangla text comments labeled as either positive or negative. The dataset is imbalanced, with a higher number of negative comments compared to positive ones.
+
+### Dataset Details
+
+- **Positive Comments**: 1,267
+- **Negative Comments**: 7,214
+
+The comments are collected from various sources, primarily focusing on social media and user-generated content platforms where Bangla is predominantly used.
+
+### How to Find the Data
+
+The dataset can be found on Kaggle and is available for download at the following link:
+
+[Kaggle Dataset Link](https://www.kaggle.com/your-dataset-link)
+
+Once you download the dataset from Kaggle, place the relevant files in the `data/` directory of this repository. The dataset should include:
+
+- `train.csv`: The training dataset with comments and their corresponding sentiment labels.
+- `test.csv`: The test dataset used for evaluating model performance.
+
+If you wish to use your own dataset, place it in the `data/` directory and ensure it follows the same structure as the provided files:
+
+- **Columns**: `comment`, `label`
+  - `comment`: The text of the comment in Bangla.
+  - `label`: The sentiment label, where `1` represents positive sentiment and `0` represents negative sentiment.
+
+
 ## 🛠️ Installation
 
 1. Clone the repository:
